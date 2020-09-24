@@ -22,7 +22,7 @@ async function getTankerkoenigData() {
     params.set('rad', 10); // Suchradius in km (max 25 km)
     params.set('type', 'diesel'); // Spritsorte: 'e5', 'e10', 'diesel' oder 'all'
     params.set('sort', 'price'); // Sortierung: price, dist
-    params.set('apikey', '8c2b88ee-bd95-5825-fd71-95f574c33c9e'); //persönlicher Api-Key
+    params.set('apikey', 'key...'); //persönlicher Api-Key
 
     const tankerkoenigData = await fetchData(url);
     console.log(tankerkoenigData);
